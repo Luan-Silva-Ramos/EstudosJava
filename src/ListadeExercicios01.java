@@ -48,19 +48,20 @@ public class ListadeExercicios01 {
         }
     }
 
+    
     static void questao3() {
         int x = 10;
         int y = 8;
-
+    
         if (x > y) {
             System.out.println("x é o maior");
-        }
-        if (y > x) {
+        } else if (y > x) {
             System.out.println("y é o maior");
         } else {
-            System.out.println("os números são iguais");
+            System.out.println("Os números são iguais");
         }
     }
+
 
     static void questao4() {
         int graus = 20;
