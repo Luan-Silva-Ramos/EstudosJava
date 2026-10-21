@@ -28,8 +28,8 @@ public class ListadeExercicios01 {
         }
     }
 
-    // QuestÃµes
-    // Desenvolva cada questÃ£o dentro dos mÃ©todos a seguir
+    // Questões
+    // Desenvolva cada questão dentro dos métodos a seguir
     static void questao1() {
         int idade = 18;
         if (idade >= 18) {
@@ -72,14 +72,17 @@ public class ListadeExercicios01 {
         }
     }
 
-    static void questao5() {
-        double nota = 6.8;
-        if (nota >= 6.8) {
-            System.out.println(nota + "Aprovado");
+    
+    static void questao4() {
+        int graus = 20;
+    
+        if (graus < 20) {
+            System.out.println(graus + " graus Celsius — Está frio");
         } else {
-            System.out.println(nota + "Reprovado");
+            System.out.println(graus + " graus Celsius — Está quente");
         }
     }
+
 
     static void questao6() {
         double consumo = 75.0;
