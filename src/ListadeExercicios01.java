@@ -24,7 +24,7 @@ public class ListadeExercicios01 {
             case 14 -> questao14();
             case 15 -> questao15();
             case 16 -> questao16();
-            default -> System.out.println("QuestÃ£o invÃ¡lida");
+            default -> System.out.println("Questão Inválida!");
         }
     }
 
