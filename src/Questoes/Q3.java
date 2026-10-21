@@ -4,17 +4,16 @@ package Questoes;
 // “os números são iguais”, caso sejam iguais.
 
 public class Q3 {
-     void main() {
+    public static void main(String[] args) {
         int x = 8;
         int y = 8;
 
         if (x > y) {
             System.out.println("x é o maior");
+        } else if (y > x) {
+            System.out.println("y é o maior");
         } else {
-            if (y > x) {
-                System.out.println("y é o maior");
-            } else
-                System.out.println("os números são iguais");
+            System.out.println("Os números são iguais");
         }
     }
 }
