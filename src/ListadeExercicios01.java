@@ -62,16 +62,6 @@ public class ListadeExercicios01 {
         }
     }
 
-
-    static void questao4() {
-        int graus = 20;
-        if (graus < 20) {
-            System.out.println(graus + "graus Celsius " + "Está frio");
-        } else {
-            System.out.println(graus + "graus Celsius " + "Está quente");
-        }
-    }
-
     
     static void questao4() {
         int graus = 20;
