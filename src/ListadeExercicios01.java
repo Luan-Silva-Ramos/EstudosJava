@@ -73,6 +73,17 @@ public class ListadeExercicios01 {
         }
     }
 
+    
+    static void questao5() {
+        double nota = 6.8;
+    
+        if (nota >= 6.8) {
+            System.out.println("Nota: " + nota + " — Aprovado");
+        } else {
+            System.out.println("Nota: " + nota + " — Reprovado");
+        }
+    }
+
 
     static void questao6() {
         double consumo = 75.0;
